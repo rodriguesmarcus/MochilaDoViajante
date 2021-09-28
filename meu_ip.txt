@@ -1,0 +1,16 @@
+Dados os nossos endereços IP e máscaras de sub-rede, responda às seguintes perguntas
+Através do comando ipconfig /all, foi identificado:
+
+IP privado = 10.0.0.163
+Máscara de Sub-rede = 255.255.255.0
+MAC = 90-CC-DF-08-D8-A6
+
+IP público = 168.228.xx.xxx - Obtido no www.whatismyip.com
+
+Os IPs público e privado pertencem à qual classe de rede?
+IP privado = Classe A
+IP público = Classe B
+
+Que informações podemos obter do nosso endereço MAC?
+O fabricante da placa de rede = Intel Corporate.
+
