@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+}
+
+* {
+    color:blue
+}
+
+p {
+    color: gray
+}
+
+.titulo {
+    font-size: 22px;
+}
