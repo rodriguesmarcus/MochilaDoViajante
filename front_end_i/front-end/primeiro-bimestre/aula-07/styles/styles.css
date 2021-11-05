@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background: salmon;
+    height: 400px;
+    padding: 24px;
+}
+
+p {
+    padding-top: 42px;
+}
+
+h1, p {
+    margin: 0;
+}
