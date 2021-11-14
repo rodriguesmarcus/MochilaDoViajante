@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caixa {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caixa-1 {
+    background-color: brown;
+    position: absolute;
+}
+
+.caixa-2 {
+    background-color: burlywood;
+    right: 0;
+    position: absolute;
+    
+}
+
+.caixa-3 {
+    background-color: burlywood;
+    position: fixed;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+}
+
+.caixa-filha {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* * {
