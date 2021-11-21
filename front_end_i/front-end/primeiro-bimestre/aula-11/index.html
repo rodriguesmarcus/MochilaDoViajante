@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main>
+
+        <form>
+
+            <h1>Cadastro de Usuário</h1>
+
+            <fieldset>
+                <legend>dados pessoais</legend>
+                <div>
+                    <label for="username">nome completo</label>
+                    <input type="text" name="username" id="username">
+                </div>
+
+                <div>
+                    <label for="birthDate">data nascimento</label>
+                    <input type="date" name="birthday" id="birthDate">
+                </div>
+
+                <div>
+                    <label for="userEmail">e-mail</label>
+                    <input type="email" name="userEmail" id="userEmail">
+                </div>
+
+                <div>
+                    <label for="userCPF">CPF</label>
+                    <input type="text" name="userCPF" id="userCPF" maxlength="11">
+                </div>
+
+                <div>
+                    <label for="userDescription">endereço</label>
+                    <textarea name="userDescription" id="userDescription"></textarea>
+                </div>
+                <div>
+                    <label for="userDescription">pedido</label>
+                    <textarea name="userDescription" id="userDescription"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>dados do pedido</legend>
+
+                <div>
+                    <label for="patisserie">tipos de doce</label>
+                    <select name="patisserie" id="patisserie">
+                        <option value="1">bolo</option>
+                        <option value="2">brigadeiro</option>
+                        <option value="3">torta</option>
+                        <option value="4">pastel doce</option>
+                        <option value="5">cheesecake</option>
+                        <option value="6">pudim</option>
+                        <option value="7">bala de coco</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="radio" name="orderSize" id="pequeno" checked>
+                    <label for="pequeno">pequeno</label>
+
+                    <input type="radio" name="orderSize" id="medio">
+                    <label for="medio">medio</label>
+
+                    <input type="radio" name="orderSize" id="grande">
+                    <label for="grande">grande</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>entrega</legend>
+                <div>
+                    <input type="radio" name="tax" id="empresaX" checked>
+                    <label for="empresaX">empresa x</label>
+
+                    <input type="radio" name="tax" id="empresaY">
+                    <label for="empresaY">empresa y</label>
+
+                    <input type="radio" name="tax" id="empresaZ">
+                    <label for="empresaZ">empresa z</label>
+                </div>
+
+                <div>
+                    <label for="deliveryDate">agendar entrega</label>
+                    <input type="date" name="deliveryDate" id="deliveryDate">
+                </div>
+            </fieldset>
+
+            <button type="reset">Limpar</button>
+            <button type="submit">Cadastrar</button>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>

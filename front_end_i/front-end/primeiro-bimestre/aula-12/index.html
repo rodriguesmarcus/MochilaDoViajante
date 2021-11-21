@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treino forms</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <main class="main-body">
+        <form class="container">
+            <h1>
+                cadastro de usuário
+            </h1>
+            <p class="main-text">lorem ipsum dolor sit amet consectetur adipisicing elit. repellat, sequi. repudiandae laboriosam illo
+                excepturi saepe fugit omnis hic corrupti quaerat?</p>
+            <div>
+                <label for="username">nome completo</label>
+                <input class="main-input" type="text" name="username" id="username" placeholder="lance seu nome">
+            </div>
+
+            <div>
+                <label for="areatexto">sua citação favorita</label>
+                <textarea class="main-textarea" placeholder="começa assim..."></textarea>
+            </div>
+
+            <div>
+                <label for="selecao">alimento favorito</label>
+                <select class="main-input" disabled="disabled" name="selecao" id="selecao">
+                    <option value="arrozinho">arroz</option>
+                    <option value="feijaozinho">feijão</option>
+                    <option value="#biscoitinho">biscoito</option>
+                    <option value="carninhas">carnes</option>
+                </select>
+            </div>
+
+            <div class="main-select">
+                <input class="main-radio" type="radio" name="orderSize" id="pequeno" checked>
+                <label for="pequeno">pequeno</label>
+
+                <input class="main-radio" type="radio" name="orderSize" id="medio">
+                <label for="medio">medio</label>
+
+                <input class="main-radio" type="radio" name="orderSize" id="grande">
+                <label for="grande">grande</label>
+            </div>
+
+            <div>
+                <input type="reset" value="cancelar">
+                <input type="submit" value="enviar">
+            </div>
+
+        </form>
+    </main>
+</body>
+
+</html>
