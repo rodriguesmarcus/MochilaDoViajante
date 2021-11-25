@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  margin: 24px;
+}
+
+form {
+  margin: 24px;
+}
+
+form div {
+  margin: 24px;
+}
+
+form input {
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 0.2s;
+  width: 100%;
+  outline: none;
+}
+
+form input[type="radio"],
+input[type="checkbox"] {
+  width: 20px;
+}
+
+form input:hover {
+  transform: scale(1.05);
+  background-color: #fff2db;
+  transform-origin: center;
+}
+
+form select {
+  padding: 10px;
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 0.2s;
+  outline: none;
+}
+
+form select:hover {
+  transform: scale(1.05);
+  background-color: #fff2db;
+  transform-origin: center;
+}
+
+form label {
+  margin-right: 24px;
+}
+
+form legend {
+  margin: 0 10px;
+}
+
+fieldset {
+  padding: 12px;
+  border-radius: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.button-container {
+  text-align: center;
+}
+
+form button {
+  padding: 10px;
+  width: 35%;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+form button:hover {
+  background-color: black;
+  color: wheat;
+}
+
+img {
+  height: 200px;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-name: dolly;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes dolly {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

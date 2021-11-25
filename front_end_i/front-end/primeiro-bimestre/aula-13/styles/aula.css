@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 24px;
+}
+
+.main-button {
+    color: white;
+    border: 0;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 4px;
+    background-color: darkolivegreen;
+    transition: 0.2s ease-in-out;
+    /* transition-delay: 0.4s; */
+    /* transition-property: background; */
+    /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+
+}
+
+.main-button:hover {
+    background-color: darkslategrey;
+    padding: 32px;
+    transform: translate(20px);
+}
+
+p {
+    color: white;
+    font-size: 22px;
+
+}
